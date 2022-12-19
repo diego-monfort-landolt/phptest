@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    background-color: #eaedf8;
+    
+    
+
+}
+
+
+.main {
+    display: flex;
+}
+
+.menu {
+    width: 20%;
+    background-color: #748cf5;
+    margin-right: 32px;
+    padding-top: 150px;
+
+    height: 100vh;
+
+}
+.menu a {
+    display: block;
+    text-decoration: none;
+    color: #444;
+    padding: 8px;
+
+    display: flex;
+    align-items: center;
+}
+.menu img {
+    margin-right: 8px;
+}
+
+.menu a:hover {
+    background-color: #fff;
+   
+}
+
+
+.content {
+    width: 80%;
+    margin-top: 120px;
+    margin-right: 32px;
+    margin-bottom: 32px;
+    background-color: beige;
+    border-radius: 8px;
+    padding: 18px;
+
+    box-shadow: 2px 2px 2px #444a;
+
+}
+
+
+
+.menubar {
+    background-color: white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 80px;
+    box-shadow: 2px 2px 2px #444a;
+    padding-top: 25px;
+    padding-left: 70px;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.myname {
+    display: flex;
+   margin-right: 50px;
+   align-items: center;
+   
+}
+.avatar {
+    border-radius: 100%;
+    background-color: #444;
+    color: #fff;
+    padding: 16px;
+
+    width: 40px;
+    height: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+
+
+
+.footer{
+    
+    
+    margin-bottom: 0;
+    padding: 20px;
+    text-align: center;
+    background: #444;
+    color: white;
+
+    
+}
+
+
+.footer h3 {
+    background-color: #444;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 3px;
+}
